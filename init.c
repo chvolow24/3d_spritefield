@@ -319,6 +319,7 @@ int main()
     }
     SDL_RenderPresent(rend);
 
+    /* Take screenshots. Wait 100 frames to avoid image corruption. */
     if (frame_index >= 100 && screenshot_index < GIFFRAMES) {
       screenshot(screenshot_index,rend);
       screenshot_index++;
