@@ -3,7 +3,7 @@ A graphics experiment in SDL2. Creates a starfield-like animation from sprite im
 
 
 ## Credit where credit is due
-The makefile, some of the C code that interacts directly with SDL, and my broad understanding for how SDL works come from [Thomas Lively's SDL Seminar,](https://www.youtube.com/watch?v=yFLa3ln16w0&ab_channel=CS50), for which source code is posted [here](https://github.com/tlively/sdl_seminar).
+The makefile, some of the C code that interacts directly with SDL, and my broad understanding of how SDL works come from [Thomas Lively's SDL Seminar](https://www.youtube.com/watch?v=yFLa3ln16w0&ab_channel=CS50), for which source code is posted [here](https://github.com/tlively/sdl_seminar).
 
 
 ## To compile and run the animation:
