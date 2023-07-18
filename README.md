@@ -7,6 +7,12 @@ The makefile, some of the C code that interacts directly with SDL, and my broad 
 
 
 ## To compile and run the animation:
+First, install SDL if not already installed. Instructions included here for linux:
+```console
+$ sudo apt-get install libsdl2-2.0-0 libsdl2-image-2.0-0 libsdl2-dev lbsdle2-image-dev
+```
+
+Then, after cloning this repositlory:
 ```console
 $ cd [PATH_TO_PROJECT_DIR]
 $ make
