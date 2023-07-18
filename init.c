@@ -150,7 +150,6 @@ void step(uint8_t direction) /* direction: 0 = towards screen, 1 = up, 2 = down,
 If movement is to stop, the thread is killed. */
 
 void* move_up(void* nullargs) {
-  printf("move up called");
   while (1) {
     step(1);
     SDL_Delay(10);
